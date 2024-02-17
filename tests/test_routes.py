@@ -12,9 +12,7 @@ from tests.factories import AccountFactory
 from service.common import status  # HTTP Status Codes
 from service.models import db, Account, init_db
 from service.routes import app
-from service.models import Account
-from http import HTTPStatus
-from flask import abort, jsonify
+
 
 
 DATABASE_URI = os.getenv(
